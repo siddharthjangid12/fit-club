@@ -1,0 +1,212 @@
+.about{
+    height: 250vh;
+    width: 100%;
+}
+.about-image{
+    height: auto;
+    width: 100%;
+}
+.about-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem 1rem;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-right: 3.5rem;
+}
+.about-section--{
+    background-color: #E94560;
+    color: white;
+    padding: 6rem 1rem;
+    border-radius: 30px;
+    margin-left: 4rem;
+}
+.about-section i{
+    font-size: 30px;
+    margin-bottom: 0.4rem;
+}
+.about-section h4{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.about-section p{
+    margin-bottom: 1rem;
+}
+.about-btn{
+    height: 40px;
+    width: 120px;
+    background-color: #3F0071;
+    color: white;
+    padding: 0.7rem 0.7rem;
+    display: flex;
+    border: 1px solid #3F0071;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+.about-btn:hover{
+    background-color: #E94560;
+    color: #3F0071;
+    transform: scale(1);
+    border: 1px solid #3F0071;
+}
+
+@media screen and (max-width:319px){
+    .about-image{
+        width: 320%;
+        height: auto;
+    }
+    .about{
+        height: auto;
+        width: 100%;
+    }
+    .about-section--{
+        padding: 1rem 4rem;
+        margin-left: 1.2rem;
+        margin-bottom: 5rem;
+    }
+    .about-section{
+        gap: 0.9rem;
+    }
+    .about-section p{
+        max-width: 10rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:430px){
+    .about-image{
+        width: 280%;
+        height: auto;
+    }
+    .about{
+        height: auto;
+        width: 100%;
+    }
+    .about-section--{
+        padding: 1rem 4rem;
+        margin-left: 1.2rem;
+        margin-bottom: 5rem;
+    }
+    .about-section{
+        gap: 0.9rem;
+    }
+    .about-section p{
+        max-width: 10rem;
+    }
+}
+
+@media screen and (min-width:431px) and (max-width:540px){
+    .about-image{
+        width: 290%;
+    }
+    .about{
+        height: auto;
+        width: 100%;
+    }
+    .about-section--{
+        padding: 1rem 7rem;
+        margin-left: 4.1rem;
+        margin-bottom: 5rem;
+    }
+    .about-section{
+        gap: 2rem;
+    }
+    .about-section p{
+        max-width: 10rem;
+        margin-left: -3rem;
+    }
+    .about-section h4{
+        margin-left: -3rem;
+    }
+    .about-section i{
+        margin-left: -3rem;
+    }
+    .about-btn{
+        margin-left: -3rem;
+    }
+}
+
+@media screen and (min-width:541px) and (max-width:767px){
+    .about-image{
+        width: 170%;
+    }
+    .about{
+        height: auto;
+        width: 100%;
+    }
+    .about-section--{
+        padding: 1rem 3rem;
+        margin-bottom: 5rem;
+    }
+    .about-section{
+        gap: 1rem;
+        margin-left: -1.7rem;
+    }
+    .about-section p{
+        max-width: 10rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .about-image{
+        width: 120%;
+    }
+    .about{
+        height: auto;
+        width: 100%;
+    }
+    .about-section--{
+        padding: 1rem 3rem;
+        margin-bottom: 5rem;
+    }
+    .about-section{
+        gap: 0rem;
+        margin-left: -2rem;
+    }
+    .about-section p{
+        max-width: 10rem;
+    }
+}
+
+@media screen and (min-width:913px) and (max-width:1024px){
+    .about-image{
+        width: 100%;
+    }
+    .about{
+        height: auto;
+        width: 100%;
+    }
+    .about-section--{
+        padding: 1rem 3rem;
+        margin-bottom: 5rem;
+    }
+    .about-section{
+        gap: 0rem;
+        margin-left: -1rem;
+    }
+    .about-section p{
+        max-width: 10rem;
+    }
+
+}
+
+@media screen and (min-width:1024px){
+    .about-image{
+        width: 100%;
+    }
+    .about{
+        height: auto;
+        width: 100%;
+    }
+    .about-section--{
+        padding: 1rem 3rem;
+        margin-bottom: 5rem;
+    }
+    .about-section{
+        gap: 0rem;
+        margin-left: -1rem;
+    }
+    .about-section p{
+        max-width: 10rem;
+    }
+
+}

@@ -1,0 +1,208 @@
+.home2{
+    width: 100%;
+    height: auto;
+}
+.home2-image{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 3rem;
+    border-radius: 30px;
+    border: 3px solid #E94560;
+}
+.home2-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 2rem;
+    margin-left: 5rem;
+    gap: 7rem;
+    margin-top: 6rem;
+}
+.home2-section-data-{
+    margin-top: 4rem;
+}
+
+.home2-section h4{
+    font-size: 42px;
+    font-weight: bold;
+    color: #3F0071;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+}
+.home2-section span{
+    font-size: 42px;
+    font-weight: bold;
+    color: #E94560;
+    text-transform: uppercase;
+}
+.home2-section p{
+    font-size: 17px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: #3F0071;
+    margin-bottom: 2rem;
+}
+.home2-btn{
+    background-color: #E94560;
+    color: white;
+    padding: 0.8rem 0.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+.home2-btn:hover{
+    background-color: #3F0071;
+}
+
+@media screen and (max-width:319px){
+    .home2-section-data-{
+        margin-top: -7rem;
+       }
+       .home2-image{
+        height: 350px;
+        width: 350px;
+        margin-bottom: 7rem;
+       }
+       .home2-section h4{
+        font-size: 40px;
+       }
+       .home2-section span{
+        font-size: 40px;
+       }
+       .home2-section{
+        gap: 11rem;
+       }
+}
+
+@media screen and (min-width:320px) and (max-width:430px){
+   .home2-section-data-{
+    margin-top: -6rem;
+   }
+   .home2-image{
+    height: 350px;
+    width: 350px;
+    margin-bottom: 7rem;
+   }
+   .home2-section h4{
+    font-size: 40px;
+   }
+   .home2-section span{
+    font-size: 40px;
+   }
+   .home2-section{
+    gap: 11rem;
+   }
+}
+
+@media screen and (min-width:431px) and (max-width:540px){
+    .home2-image{
+        height: 550px;
+        width: 550px;
+    }
+    .home2-section h4{
+        font-size: 48px;
+       }
+       .home2-section span{
+        font-size: 48px;
+       }
+       .home2-section p{
+        font-size: 25px;
+       }
+       .home2-section{
+        gap: 11rem;
+       }
+       .home2-section-data-{
+        margin-top: -5rem;
+       }
+       .home2-btn{
+        font-size: 1.5rem;
+       }
+}
+
+@media screen and (min-width:541px) and (max-width:767px){
+    .home2-image{
+        height: 450px;
+        width: 450px;
+        margin-bottom: 7rem;
+    }
+    .home2-section h4{
+        font-size: 40px;
+       }
+       .home2-section span{
+        font-size: 40px;
+       }
+       .home2-section p{
+        font-size: 23px;
+       }
+       .home2-section{
+        gap: 7rem;
+        margin-left: 3rem;
+       }
+       .home2-section-data-{
+        margin-top: -7rem;
+       }
+       .home2-btn{
+        font-size: 1.2rem;
+       }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .home2-image{
+        height: 450px;
+        width: 450px;
+        margin-bottom: 7rem;
+    }
+      .home2-section h4{
+        font-size: 40px;
+       }
+       .home2-section span{
+        font-size: 40px;
+       }
+       .home2-section p{
+        font-size: 23px;
+       }
+       .home2-section{
+        gap: 7rem;
+        margin-left: 3rem;
+       }
+       .home2-section-data-{
+        margin-top: -9rem;
+       }
+       .home2-btn{
+        font-size: 1.2rem;
+       }
+}
+
+@media screen and (min-width:913px) and (max-width:1024px){
+    .home2-image{
+        height: 450px;
+        width: 450px;
+        margin-bottom: 7rem;
+    }
+      .home2-section h4{
+        font-size: 40px;
+       }
+       .home2-section span{
+        font-size: 40px;
+       }
+       .home2-section p{
+        font-size: 23px;
+       }
+       .home2-section{
+        gap: 7rem;
+        margin-left: 3rem;
+       }
+       .home2-section-data-{
+        margin-top: 4rem;
+       }
+       .home2-btn{
+        font-size: 1.2rem;
+       }
+}
+
+@media screen and (min-width:1024px){
+    .home2-section-data-{
+        margin-top: 4rem;
+       } 
+}

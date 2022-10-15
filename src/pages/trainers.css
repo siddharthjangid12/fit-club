@@ -1,0 +1,189 @@
+.trainer{
+    height: 210vh;
+    width: 100%;
+}
+.trainer-image{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+.trainer-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 2rem 3rem;
+    gap: 7rem;
+    margin-right: 4rem;
+}
+.trainer-name{
+    background-color: #E94560;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    margin-left: 4rem;
+}
+.trainer-list h4{
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 5rem;
+}
+.trainer-list h5{
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.trainer-list span{
+    margin-left: 4.4rem;
+}
+.trainer-list i{
+    color: white;
+    font-size: 25px;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:319px){
+    .trainer{
+        width: 100%;
+        height: auto;
+    }
+    .trainer-list{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: -5rem;
+        gap: 2rem;
+    }
+    .trainer-name{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:430px){
+    .trainer{
+        width: 100%;
+        height: auto;
+    }
+    .trainer-list{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: -5rem;
+    }
+    .trainer-name{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:431px) and (max-width:540px){
+    .trainer{
+        width: 100%;
+        height: auto;
+    }
+    .trainer-list{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 0rem;
+    }
+    .trainer-name{
+        margin-bottom: 2rem;
+    }
+    .trainer-image{
+        height: 500px;
+        width: 500px;
+    }
+    .trainer-list h4{
+        font-size: 33px;
+        margin-left: 8rem;
+    }
+    .trainer-list h5{
+        font-size: 30px;
+    }
+    .trainer-list span{
+        margin-left: 7rem;
+    }
+    .trainer-list i{
+        font-size: 35px;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width:541px) and (max-width:767px){
+    .trainer{
+        width: 100%;
+        height: auto;
+    }
+    .trainer-list{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 3rem;
+    }
+    .trainer-name{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .trainer{
+        width: 100%;
+        height: auto;
+    }
+    .trainer-list{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: -5rem;
+    }
+    .trainer-name{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:913px) and (max-width:1024px){
+    .trainer{
+        width: 100%;
+        height: auto;
+    }
+    .trainer-list{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 1.5rem;
+    }
+    .trainer-name{
+        margin-bottom: 2rem;
+    }
+    .trainer-image{
+        margin-left: 2.5rem;
+    }
+    .trainer-list h4{
+        font-size: 23px;
+        margin-left: 7rem;
+    }
+    .trainer-list h5{
+        font-size: 20px;
+    }
+    .trainer-list span{
+        margin-left: 6.5rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .trainer{
+        width: 100%;
+        height: auto;
+    }
+    .trainer-list{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 0.8rem;
+    }
+    .trainer-name{
+        margin-bottom: 2rem;
+    }
+    .trainer-image{
+        margin-left: 2.5rem;
+    }
+    .trainer-list h4{
+        font-size: 23px;
+        margin-left: 7rem;
+    }
+    .trainer-list h5{
+        font-size: 20px;
+    }
+    .trainer-list span{
+        margin-left: 6.5rem;
+    }  
+}
